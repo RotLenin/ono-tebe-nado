@@ -38,7 +38,7 @@
 }
 
 .cover__title-span_top {
-    word-spacing: -20px;
+    word-spacing: -26px;
     line-height: 110%;
 }
 
@@ -50,7 +50,7 @@
 .cover__title-span_bottom {
     margin-bottom: 0;
     margin-right: -30px;
-    word-spacing: -20px;
+    word-spacing: -24px;
 }
 
 .cover__wrapper {
