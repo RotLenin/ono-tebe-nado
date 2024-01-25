@@ -2,12 +2,12 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
+    gap : 48px;
 }
 
 .socials-list-item {
     display: inline;
     list-style: none;
-    margin-right: 48px;
 }
 
 .socials-list-item:last-child {

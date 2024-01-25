@@ -13,9 +13,8 @@
 }
 
 .header__address {
-    display: flex;
-    justify-content: flex-end;
-    margin: 6px 26px 0 0;
-    font: var(--18px);
-    line-height: var(--lh135);
+    align-self: end;
+    justify-self: end;
+    margin-right: 26px;
+    padding-bottom: 1px;
 }

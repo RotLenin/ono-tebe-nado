@@ -13,11 +13,13 @@
 .lots__card-list {
     list-style: none;
     display: grid;
-    grid-template: 563px / repeat(3, 1fr);
+    grid-template: 1fr / repeat(3, 1fr);
     column-gap: 25px;
 }
 
 .lots__card-list-item {
+    position: relative;
+    height: 563px;
     list-style: inherit;
 }
 
@@ -25,4 +27,6 @@
     display: inline-block;
     margin: 30px 0 0 40px;
     font: var(--20px);
+    text-decoration: underline;
+    text-underline-offset: 4px;
 }

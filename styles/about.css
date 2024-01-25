@@ -1,5 +1,5 @@
 .about {
-    padding-left: 47px;
+    padding-left: 70px;
     padding-top: 35px;
     display: grid;
     grid-template: 1fr / 240px 1fr;
@@ -31,7 +31,7 @@
 
 .about__info-p {
     font: var(--20px);
-    line-height: var(--lh120);
+    line-height: var(--main-line-height);
     letter-spacing: .05px;
     word-spacing: .2px;
 
