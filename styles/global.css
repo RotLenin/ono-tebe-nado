@@ -1,3 +1,9 @@
+:root {
+  --white : #fff;
+  --gray : #f5f5f5;
+  --black : #000;
+}
+
 *,
 *::before,
 *::after {
@@ -8,6 +14,10 @@ body {
   width: 1100px;
   margin: 0 auto;
   font-family: Raleway, sans-serif;
+  color: var(--black);
+  background-color: var(--gray);
+  font-weight: 400;
+  font-size: 20px;
 }
 
 h1,
@@ -33,22 +43,8 @@ img {
   width: 100%;
 }
 
-:root {
-  --white : #fff;
-  --gray : #f5f5f5;
-  --black : #000;
-}
-
 html {
   scroll-behavior: smooth;
-}
-
-body {
-  width: 100%;
-  color: var(--black);
-  background-color: var(--gray);
-  font-weight: 400;
-  font-size: 20px;
 }
 
 .block {
