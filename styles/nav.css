@@ -9,8 +9,8 @@
 .nav__list-item, .nav__list-item a {
     font-size: 18px;
     font-style: normal;
-    font-weight: 400;
     line-height: normal;
+    font-weight: 400;
 }
 
 .nav__list .nav__list-item {

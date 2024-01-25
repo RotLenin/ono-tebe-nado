@@ -12,10 +12,6 @@
     margin-top: 5px;
 }
 
-.header__logo {
-    text-align: center;
-}
-
 .header__address {
     display: flex;
     justify-content: flex-end;

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="fonts/fonts.css" rel="stylesheet" />
+    <link rel='preload' href="fonts/fonts.css" as='style'/>
     <link href='styles/style.css' rel="stylesheet" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил </title>
   </head>
@@ -17,7 +17,9 @@
           <li class='nav__list-item'><a href='#about' class='typography_a'>об аукционе</a></li>
         </ul>
       </nav>
-      <img class='header__logo logo' src='images/logo-black.svg' alt='ОНО ТЕБЕ НАДО'/>
+      <a class='header__logo' href='#main'>
+        <img class='logo' src='images/logo-black.svg' alt='ОНО ТЕБЕ НАДО'/>
+      </a>
       <aside class='header__address'>
         <address class='address'>
           <a class='address-link custom-underline' href="tel:+99995555555">+9 999 555 5555</a><br>
@@ -65,9 +67,9 @@
         <a class='lots__look-more-link custom-underline' href='#0'>посмотреть больше</a>
       </section>
       <section class='about' id='about'>
-        <div class='about__logo-wrapper'>
+        <a class='about__logo-wrapper' href='#main'>
           <img class='logo__perfect' src='images/logo-white.svg' alt='ОНО ТЕБЕ НАДО' />
-        </div>
+        </a>
         <div class='about__info'>
           <h2 class='about__info-title typography_h2'>ОБ АУКЦИОНЕ</h2>
           <p class='about__info-p typography_p'>Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?</p>

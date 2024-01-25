@@ -12,12 +12,12 @@
 
 body {
   width: 1100px;
-  margin: 0 auto;
   font-family: Raleway, sans-serif;
+  margin: 0 auto;
   color: var(--black);
   background-color: var(--gray);
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 h1,
