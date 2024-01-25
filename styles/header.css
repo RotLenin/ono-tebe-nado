@@ -1,0 +1,25 @@
+.header {
+    padding-top: 92px;
+    padding-bottom: 96px;
+    display: grid;
+    grid-template-columns: 1fr 150px 1fr;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__nav {
+    margin-left: 28px;
+    margin-top: 5px;
+}
+
+.header__logo {
+    text-align: center;
+}
+
+.header__address {
+    display: flex;
+    justify-content: flex-end;
+    margin: 6px 26px 0 0;
+    font-size: 18px;
+    line-height: 135%;
+}

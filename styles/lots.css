@@ -1,0 +1,35 @@
+.lots {
+    padding-top: 180px;
+    padding-bottom: 146px;
+}
+
+.lots__title {
+    color: var(--black);
+    font-family: Raleway;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: 0 0 27px 40px;
+}
+
+.lots__card-list {
+    list-style: none;
+    display: grid;
+    grid-template: 563px / repeat(3, 1fr);
+    column-gap: 25px;
+}
+
+.lots__card-list-item {
+    list-style: inherit;
+}
+
+.lots__look-more-link {
+    display: inline-block;
+    margin: 30px 0 0 40px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
