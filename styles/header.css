@@ -16,6 +16,6 @@
     display: flex;
     justify-content: flex-end;
     margin: 6px 26px 0 0;
-    font-size: 18px;
-    line-height: 135%;
+    font: var(--18px);
+    line-height: var(--lh135);
 }

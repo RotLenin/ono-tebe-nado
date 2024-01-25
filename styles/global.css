@@ -2,6 +2,14 @@
   --white : #fff;
   --gray : #f5f5f5;
   --black : #000;
+  /** Fonts */
+  --18px : normal 400 normal 18px Raleway;
+  --20px : normal 400 normal 20px Raleway;
+  --22px : normal 22px Raleway;
+  --40px : normal bold 40px Raleway;
+  /** Line height */
+  --lh120 : 120%;
+  --lh135 : 135%;
 }
 
 *,
@@ -13,12 +21,10 @@
 
 body {
   width: 1100px;
-  font-family: Raleway, sans-serif;
   margin: 0 auto;
   color: var(--black);
   background-color: var(--gray);
-  font-weight: 400;
-  font-size: 18px;
+  font: var(--18px);
 }
 
 h1,

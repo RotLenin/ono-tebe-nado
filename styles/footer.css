@@ -8,8 +8,8 @@
 
 .footer__address {
     margin-left: 4px;
-    font-size: 18px;
-    line-height: 135%;
+    font: var(--18px);
+    line-height: var(--lh135);
 }
 
 .footer__socials {
