@@ -35,18 +35,6 @@
     letter-spacing: 30px;
     word-spacing: -30px;
     text-transform: uppercase;
-}
-
-
-.cover__title-span {
-    color: var(--white);
-    font-size: 100px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 30px;
-    word-spacing: -30px;
-    text-transform: uppercase;
     margin-bottom: 10px;
 }
 
