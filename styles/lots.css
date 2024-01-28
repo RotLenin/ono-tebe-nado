@@ -19,8 +19,15 @@
 
 .lots__card-list-item {
     position: relative;
-    height: 563px;
+    min-height: 563px;
     list-style: inherit;
+}
+
+.lots__card-list-item a {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
 }
 
 .lots__look-more-link {

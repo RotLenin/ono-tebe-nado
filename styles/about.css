@@ -29,15 +29,15 @@
     margin-bottom: 100px;
 }
 
+.about__text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
 .about__info-p {
     font: var(--20px);
     line-height: var(--main-line-height);
     letter-spacing: .05px;
     word-spacing: .2px;
-
-    margin-bottom: 24px;
-}
-
-.about__info-p:last-child {
-    margin-bottom: 0;
 }
