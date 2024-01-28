@@ -1,1 +1,9 @@
-/* место для вашего кода */
+@import "header.css";
+@import "nav.css";
+@import "address.css";
+@import "cover.css";
+@import "lots.css";
+@import "card.css";
+@import "about.css";
+@import "footer.css";
+@import "socials.css";

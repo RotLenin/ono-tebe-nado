@@ -1,0 +1,11 @@
+.address {
+    width: 240px;
+    font: var(--18px);
+    line-height: var(--title-line-height);
+    letter-spacing: 0.18px;
+}
+
+.address-link {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}

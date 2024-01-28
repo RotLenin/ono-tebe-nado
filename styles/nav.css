@@ -1,0 +1,35 @@
+.nav__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    font: var(--18px);
+}
+
+.nav__list-item a:active,
+.nav__list-item a:hover,
+.nav__list-item_active a {
+    text-decoration: none;
+}
+
+.nav__list .nav__list-item {
+    text-align: center;
+}
+
+/** INLINE **/
+
+.nav__list_inline {
+    list-style: circle;
+    flex-direction: row;
+}
+
+.nav__list_inline .nav__list-item {
+    list-style: inherit;
+    margin-left: 32px;
+}
+
+.nav__list_inline .nav__list-item:first-child {
+    list-style: none;
+    margin-left: 0;
+}

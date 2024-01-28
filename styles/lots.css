@@ -1,0 +1,39 @@
+.lots {
+    padding-top: 180px;
+    padding-bottom: 146px;
+}
+
+.lots__title {
+    color: var(--black);
+    font: var(--40px);
+    text-transform: uppercase;
+    margin: 0 0 27px 40px;
+}
+
+.lots__card-list {
+    list-style: none;
+    display: grid;
+    grid-template: 1fr / repeat(3, 1fr);
+    column-gap: 25px;
+}
+
+.lots__card-list-item {
+    position: relative;
+    min-height: 563px;
+    list-style: inherit;
+}
+
+.lots__card-list-item a {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.lots__look-more-link {
+    display: inline-block;
+    margin: 30px 0 0 40px;
+    font: var(--20px);
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}

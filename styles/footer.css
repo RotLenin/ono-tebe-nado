@@ -1,0 +1,15 @@
+.footer {
+    padding: 182px 46px 98px;
+    display: grid;
+    grid-template: 1fr / 1fr 2fr 1fr;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.footer__address {
+    margin-left: 4px;
+}
+
+.footer__socials {
+    margin-right: 4px;
+}
